@@ -1,10 +1,9 @@
 <header class="site-header">
-
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav">
+    <nav class="site-nav" role="navigation">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
           <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -13,15 +12,14 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title != "404: Page not found" %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      <div class="trigger" role="menubar">
+        {% for pg in site.pages %}
+          {% if pg.menu_exclude != true and pg.title != null %}
+          <a class="page-link" href="{{ pg.url | prepend: site.baseurl }}" role="menuitem">{{ pg.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
     </nav>
 
   </div>
-
 </header>

@@ -3,6 +3,7 @@
 title: Email Docs
 description: Documentation for Fordham University emails.
 url: http://fordhamumc.github.io/emaildocs
+image_path: /assets/images
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -19,13 +20,13 @@ lsi: false
 limit_posts: 10
 
 # Permalink structure and pagination options
-permalink: none
+permalink: '/:categories/:title/'
 paginate: 10
 paginate_path: 'page:num'
 excerpt_separator: ''
 
 # Markdown library and options
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
               'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
