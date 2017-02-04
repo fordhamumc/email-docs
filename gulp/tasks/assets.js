@@ -24,8 +24,8 @@ const when = require('gulp-if');
 gulp.task('scripts', () =>
   // NOTE: The order here is important since it's concatenated in order from
   // top to bottom, so you want vendor scripts etc on top
-  gulp.src('src/assets/javascript/**/*.js')
-    .pipe(newer('.tmp/assets/javascript/index.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
+  gulp.src('src/assets/scripts/**/*.js')
+    .pipe(newer('.tmp/assets/scripts/index.js', {dest: '.tmp/assets/scripts', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(babel({
       presets: ['es2015']
@@ -41,13 +41,13 @@ gulp.task('scripts', () =>
     })))
     .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
-    .pipe(when(argv.prod, gulp.dest('.tmp/assets/javascript')))
+    .pipe(when(argv.prod, gulp.dest('.tmp/assets/scripts')))
     .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
     .pipe(when(argv.prod, size({
       gzip: true,
       showFiles: true
     })))
-    .pipe(gulp.dest('.tmp/assets/javascript'))
+    .pipe(gulp.dest('.tmp/assets/scripts'))
 );
 
 // 'gulp styles' -- creates a CSS file from your SASS, adds prefixes and
@@ -101,7 +101,7 @@ gulp.task('serve', (done) => {
   // Watch various files for changes and do the needful
   gulp.watch(['src/**/*.md', 'src/**/*.html', 'src/**/*.yml'], gulp.series('build:site', reload));
   gulp.watch(['src/**/*.xml', 'src/**/*.txt'], gulp.series('site', reload));
-  gulp.watch('src/assets/javascript/**/*.js', gulp.series('scripts', reload));
+  gulp.watch('src/assets/scripts/**/*.js', gulp.series('scripts', reload));
   gulp.watch('src/assets/scss/**/*.scss', gulp.series('styles'));
   gulp.watch(['src/assets/images/**/*.{jpg,png,gif,svg}', 'src/_posts/**/*.{jpg,png,gif,svg}'], gulp.series('images', reload));
 });

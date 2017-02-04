@@ -56,6 +56,10 @@
  * Content
  */
 
+.section:focus {
+  outline: none;
+}
+
 .page-content {
   .wrapper {
     display: flex;
