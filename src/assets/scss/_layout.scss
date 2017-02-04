@@ -1,0 +1,10 @@
+/**
+ * Wrapper
+ */
+
+.wrapper {
+  max-width: $body-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+  box-sizing: content-box;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+// Our variables
+$base-font-family:  'Open Sans', Arial, sans-serif;
+$base-font-size:    1em;
+$base-font-weight:  400;
+$strong:            600;
+$small-font-size:   0.875em;
+$base-line-height:  1.5;
+
+$spacing-unit:      2rem;
+
+$text-color:        #333;
+$background-color:  #fdfdfd;
+$brand-color:       #900028;
+$brand-hover:       darken(#900028, 5%);
+
+$grey-color:        #828282;
+$grey-color-light:  lighten($grey-color, 40%);
+$grey-color-dark:   darken($grey-color, 25%);
+
+// Width of the content area
+$body-width:        75rem;
+$md:                50rem;
+
+
+
+@mixin break($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
