@@ -5,7 +5,8 @@ The main SCSS file for everything, yep
 @import "main";
 @import "base";
 @import "type";
-@import "site";
 @import "layout";
-@import "category-nav";
+@import "header";
+@import "nav";
+@import "content";
 @import "syntax-highlighting";

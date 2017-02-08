@@ -1,0 +1,54 @@
+/**
+ * Navigation
+ */
+
+.site-nav {
+  margin: 0 -.5rem;
+}
+
+.page-link {
+  display: inline-block;
+  margin: .25rem .5rem;
+}
+
+.nav_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: white;
+  transition: transform 0.3s ease-out;
+}
+
+
+/**
+ * Category Nav
+ */
+
+.category-nav {
+  margin-bottom: 3rem;
+
+  .inner {
+    background-color: $grey-color-light;
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    position: sticky;
+    top: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+}
+
+.category {
+  margin-bottom: 1.5rem;
+}
+
+.category-item {
+  margin-top: .4rem;
+}
+

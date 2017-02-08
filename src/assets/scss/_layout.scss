@@ -8,3 +8,31 @@
   padding: 0 $spacing-unit;
   box-sizing: content-box;
 }
+
+
+
+/**
+ * Content
+ */
+
+.page-content {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main {
+    width: 70%;
+  }
+}
+
+.category-nav {
+  width: 25%;
+}
+
+@include break($md) {
+  .page-content main,
+  .category-nav {
+    width: 100%;
+  }
+}

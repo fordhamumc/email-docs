@@ -1,25 +1,14 @@
 <nav class="category-nav" role="navigation">
   <div class="inner">
-    <h4>Sections</h4>
-
+    <h4>In this section</h4>
     <ul role="menu">
-      {% for pg in site.pages %}
-        {% if pg.layout == 'category' %}
-        <li class="category" role="menuitem">
-          <a href="{{ pg.url }}">{{ pg.title }}</a>
-          <ul>
-            {% assign posts = site.categories[pg.category] | sort: 'order' %}
-            {% for post in posts %}
-              <li class="category-item" role="menuitem">
-                <a href="#{{ post.url | split:'/' | last | replace:'.html' }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
+      {% assign posts = site.categories[page.category] | sort: 'order' %}
+      {% for post in posts %}
+        <li class="category-item" role="menuitem">
+          <a href="{{ page.url }}#{{ post.url | split:'/' | last | replace:'.html' }}">{{ post.title }}</a>
         </li>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
     </ul>
   </div>
 </nav>
-
 
