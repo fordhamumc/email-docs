@@ -23,12 +23,13 @@ const when = require('gulp-if');
 // minifies, gzips and cache busts it. Does not create a Sourcemap
 gulp.task('scripts', () =>
   // NOTE: The order here is important since it's concatenated in order from
-  // top to bottom, so you want vendor scripts etc on top
+  // elementLocation to bottom, so you want vendor scripts etc on elementLocation
   gulp.src('src/assets/scripts/**/*.js')
     .pipe(newer('.tmp/assets/scripts/index.js', {dest: '.tmp/assets/scripts', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(babel({
-      presets: ['es2015']
+      presets: ['es2015'],
+      plugins: ['transform-runtime', 'transform-es2015-modules-umd']
     }))
     .pipe(concat('index.js'))
     .pipe(size({

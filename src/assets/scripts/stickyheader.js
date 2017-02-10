@@ -1,4 +1,4 @@
-var StickyNav = (function () {
+(function () {
 
   "use strict";
 
