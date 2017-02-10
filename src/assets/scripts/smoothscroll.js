@@ -1,79 +1,85 @@
 // current scroll position
-function scroller (){
+"use strict";
+function scroller () {
   "use strict";
 
-  function location () {
+  function location() {
     return window.scrollY || window.pageYOffset
   }
 
   // element offset
 
-  function top (element) {
+  function top(element) {
     return element.getBoundingClientRect().top + start
   }
-
-  // scroll generator
-  var duration = 300;
-  var start = 0;
-  var distance = 1000;
-  function *step(timeCurrent) {
-    var timeStart = timeCurrent;
-    while (timeCurrent < 300) {
-      yield timeCurrent + 20;
-    }
-  }
 }
+
+function *ag() {
+  var start = new Date();
+
+  for (let i = 0; i < 2000; i++) {
+    window.requestAnimationFrame(function() {
+      yield i;
+    });
+  }
+  var end = new Date();
+  console.log(`Time elapsed: ${end.getTime() - start.getTime()}`);
+}
+
+for (a of ag()) {
+  console.log(a);
+}
+
+
+
 
 
 function linearEasing(t, b, c, d) {
   return c*t/d + b;
 }
 
-function *step({
-  duration = 300,
-  start = 10,
-  end = 1000,
-  easing = linearEasing
+function *step(currentTime = 0, {
+  duration = 300,         // scroll duration            (ms)
+  start = 10,             // starting scroll position   (px)
+  end = 1000,             // ending scroll position     (px)
+  offset = 0,             // end position adjustment    (px)
+  easing = linearEasing   // easing function            (function)
 } = {}) {
-  var distance = end - start;
-  var timeStart;
-  function loop(timeCurrent){
-    if (!timeStart) {
-      timeStart = timeCurrent
-    }
-    var timeElapsed = timeCurrent - timeStart;
+
+  var distance = end - start + offset,
+      timeStart = currentTime;
+
+  function timeElapsed() {
+    return currentTime - timeStart;
   }
 
-
-  if (timeElapsed < duration) {
-
+  function next() {
+    return easing(timeElapsed(), start, distance, duration);
   }
 
-  while(timeElapsed < duration) {
-    yield easing(timeElapsed, start, distance, duration);
+  while (timeElapsed() < duration) {
+    currentTime = yield next();
   }
+
+  return end + offset;
 }
 
-var timeStart,
-    position = step();
+function scroll(options) {
+  var position;
 
-function loop (timeCurrent) {
-  if (!timeStart) {
-    timeStart = timeCurrent
+  function loop(timeCurrent) {
+    var next = position.next(timeCurrent);
+    console.log(next);
+    if (!next.done) window.requestAnimationFrame(loop);
   }
-  var timeElapsed = timeCurrent - timeStart;
-  var next = position.next(timeElapsed);
-  console.log(next.value);
 
-  if (!next.done) window.requestAnimationFrame(loop);
+  window.requestAnimationFrame( function (timeCurrent) {
+    position = step(timeCurrent, options);
+    loop(timeCurrent);
+  });
 }
 
-
-while(timeCurrent - timeStart < duration) {
-
-next = easing(timeElapsed, start, distance, duration)
-
-
+scroll({duration: 600, end: 3234});
 
 
 
