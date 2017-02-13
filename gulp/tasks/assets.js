@@ -1,11 +1,12 @@
 'use strict';
 const argv = require('yargs').argv;
 const autoprefixer = require('autoprefixer');
-const babel = require('gulp-babel');
+const babel = require('rollup-plugin-babel');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
 const cssnano = require('gulp-cssnano');
 const gulp = require('gulp');
+const rollup = require('gulp-rollup');
 const gzip = require('gulp-gzip');
 const newer = require('gulp-newer');
 const postcss = require('gulp-postcss');
@@ -24,13 +25,25 @@ const when = require('gulp-if');
 gulp.task('scripts', () =>
   // NOTE: The order here is important since it's concatenated in order from
   // elementLocation to bottom, so you want vendor scripts etc on elementLocation
-  gulp.src('src/assets/scripts/**/*.js')
+  gulp.src(['src/assets/scripts/**/*.js', 'node_modules/babel-runtime/**/*.js'])
     .pipe(newer('.tmp/assets/scripts/index.js', {dest: '.tmp/assets/scripts', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
-    .pipe(babel({
-      presets: ['es2015'],
-      plugins: ['transform-runtime', 'transform-es2015-modules-umd']
+
+
+    .pipe(rollup({
+      'format': 'umd',
+      'moduleName':'jump',
+      'plugins': [
+        babel({
+          'exclude': 'node_modules/**',
+          'presets': ['es2015-rollup'],
+          'plugins': ['transform-runtime'],
+          'runtimeHelpers': true
+        })
+      ],
+      entry: ['src/assets/scripts/index.js']
     }))
+
     .pipe(concat('index.js'))
     .pipe(size({
       showFiles: true

@@ -1,9 +1,7 @@
-import jump from 'jump.js';
+import 'babel-runtime';
+import jump from './jump';
 
-(function() {
-  "use strict";
-
-  var inPageLinks = [ ...document.querySelectorAll('a') ].filter(isInPageLink);
+  var inPageLinks = Array.prototype.slice.call(document.querySelectorAll('a')).filter(isInPageLink);
 
   for (let a of inPageLinks) {
     a.addEventListener('click', onClick, false);
@@ -26,4 +24,4 @@ import jump from 'jump.js';
     if (hashPosition == -1) return url;
     return url.slice(0, hashPosition);
   }
-}());
+
