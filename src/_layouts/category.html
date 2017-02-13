@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 {% include categorynav.html %}
 <main>
   <h1 class="post-title">{{ page.title }}</h1>
@@ -18,7 +17,7 @@ layout: default
     <article class="section" itemscope itemtype="http://schema.org/BlogPosting" id="{{ post.url | split:'/' | last | replace:'.html' }}">
 
       <header class="section-header">
-        <h2 class="section-title" itemprop="name headline">{{ post.title }}</h2>
+        <h3 class="section-title" itemprop="name headline">{{ post.title }}</h3>
       </header>
 
       <div class="section-content" itemprop="articleBody">

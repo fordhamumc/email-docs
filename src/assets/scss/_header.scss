@@ -6,6 +6,7 @@
   border-top: 4px solid $brand-color;
   border-bottom: 1px solid $grey-color-light;
   padding: .75rem 0;
+  margin-bottom: 1rem;
 
   a {
     color: $text-color;
@@ -34,52 +35,3 @@
   font-size: 1.414em;
   margin: .25rem $spacing-unit * 2 .25rem 0;
 }
-
-
-
-/**
- * Navigation
- */
-
-.site-nav {
-  margin: 0 -.5rem;
-}
-
-.page-link {
-  display: inline-block;
-  margin: .25rem .5rem;
-}
-
-
-
-/**
- * Content
- */
-
-.section:focus {
-  outline: none;
-}
-
-.page-content {
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  main {
-    width: 70%;
-  }
-}
-
-.category-nav {
-  width: 25%;
-}
-
-@include break($md) {
-  .page-content main,
-  .category-nav {
-    width: 100%;
-  }
-}
-
-
