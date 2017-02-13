@@ -1,4 +1,3 @@
-import 'babel-runtime';
 import jump from './jump';
 
   var inPageLinks = Array.prototype.slice.call(document.querySelectorAll('a')).filter(isInPageLink);

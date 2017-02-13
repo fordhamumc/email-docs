@@ -2,6 +2,7 @@
 const argv = require('yargs').argv;
 const autoprefixer = require('autoprefixer');
 const babel = require('rollup-plugin-babel');
+const includePaths = require('rollup-plugin-includepaths');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
 const cssnano = require('gulp-cssnano');
@@ -31,14 +32,17 @@ gulp.task('scripts', () =>
 
 
     .pipe(rollup({
-      'format': 'umd',
+      'format': 'es',
       'moduleName':'jump',
       'plugins': [
         babel({
-          'exclude': 'node_modules/**',
+          'exclude': ['node_modules/**'],
           'presets': ['es2015-rollup'],
           'plugins': ['transform-runtime'],
           'runtimeHelpers': true
+        }),
+        includePaths({
+          'paths': ['node_modules']
         })
       ],
       entry: ['src/assets/scripts/index.js']
