@@ -12,10 +12,28 @@
 
 
 /**
+ * Index
+ */
+
+.page-index {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .page-item {
+    width: 45%;
+  }
+}
+
+
+/**
  * Content
  */
 
-.page-content {
+.page-category {
   .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +49,7 @@
 }
 
 @include break($md) {
-  .page-content main,
+  .page-category main,
   .category-nav {
     width: 100%;
   }

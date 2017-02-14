@@ -21,6 +21,7 @@ function initSmoothScrolling() {
 
       jump(hash, {
         duration: duration,
+        offset: -10,
         callback: function() {
           setFocus(hash);
           history.pushState(null,null,hash);
@@ -70,6 +71,10 @@ function jump(target, options) {
       opt.duration(distance) :
       opt.duration,
     timeStart, timeElapsed;
+
+  if (distance < 0) {
+    distance -= 70;
+  }
 
   requestAnimationFrame(function(time) {
     timeStart = time;

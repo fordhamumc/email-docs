@@ -3,15 +3,30 @@
  */
 
 .section {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 
   &:focus {
     outline: none;
   }
 }
 
+.section-title small {
+  display: block;
+  font-size: .6em;
+}
+
 .post-title {
   margin-bottom: 1.5rem;
+}
+
+.page-item {
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+  h4 {
+    margin-bottom: 0;
+  }
 }
 
 

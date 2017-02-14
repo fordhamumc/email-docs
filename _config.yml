@@ -5,6 +5,11 @@ description: Documentation for Fordham University emails.
 url: http://fordhamumc.github.io/emaildocs
 image_path: /assets/images
 
+# Author information
+author:
+  name: Michael Foley
+  email: mifoley@fordham.edu
+
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist

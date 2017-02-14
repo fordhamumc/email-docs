@@ -6,8 +6,7 @@
   <body>
 
     {% include header.html %}
-
-    <div class="page-content">
+    <div class="page-content page-{{page.layout}}{% if page.url == "/" %} page-index{% endif %}">
       <div class="wrapper">
         {{ content }}
       </div>

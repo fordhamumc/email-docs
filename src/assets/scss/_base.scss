@@ -40,6 +40,10 @@ strong {
   font-weight: $strong;
 }
 
+small {
+  color: lighten($text-color, 20%);
+}
+
 
 
 /**
