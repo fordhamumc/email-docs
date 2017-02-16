@@ -1,0 +1,103 @@
+/**
+ * Spinner
+ */
+
+$spinner-size: 25px;
+$spinner-border-width: 3px;
+$spinner-border-color: #ccc;
+$spinner-duration: .6s;
+
+
+.spinner-line45 {
+  display: block;
+  height: $spinner-border-width;
+  width: 80%;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  background-color: $spinner-border-color;
+  border-radius: ($spinner-border-width / 2);
+  transform: rotate(45deg);
+}
+
+.spinner-line45:after {
+  content:'';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: darken($spinner-border-color, 20%);
+  border-radius: ($spinner-border-width / 2);
+  opacity: 0;
+}
+
+.spinner-line--rev {
+  transform: rotate(-45deg)
+}
+
+.spinner {
+  display: block;
+  width: $spinner-size;
+  height: $spinner-size;
+  position: relative;
+  margin: 0 auto;
+  background: white;
+  background-clip: padding-box;
+  border-radius: 100%;
+  line-height: 1;
+}
+
+.spinner:after {
+  content: '';
+  position: absolute;
+  top: -$spinner-border-width;
+  bottom: -$spinner-border-width;
+  left: -$spinner-border-width;
+  right: -$spinner-border-width;
+  background: $spinner-border-color;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.spinner:hover:after,
+.spinner:hover .spinner-line45:after {
+  animation-duration: $spinner-duration;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.spinner:hover:after {
+  background: linear-gradient(60deg,
+    $spinner-border-color,
+    $spinner-border-color 20%,
+    darken($spinner-border-color, 20%));
+  animation-name: spin;
+}
+
+
+.spinner:hover .spinner-line45:after {
+  animation-name: glow;
+}
+
+@keyframes glow {
+  20%{
+    opacity: 0;
+  }
+
+  90%{
+    opacity: .8;
+  }
+
+  100%{
+    opacity: .8;
+  }
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}

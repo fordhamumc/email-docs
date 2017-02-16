@@ -26,7 +26,14 @@ $md:                50rem;
 
 
 @mixin break($device) {
-    @media screen and (max-width: $device) {
-        @content;
+  @if $device == 'print' {
+    @media print {
+      @content;
     }
+
+  } @else {
+    @media screen and (max-width: $device) {
+      @content;
+    }
+  }
 }

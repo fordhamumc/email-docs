@@ -5,7 +5,7 @@
       {% assign posts = site.categories[page.category] | sort: 'order' %}
       {% for post in posts %}
         <li class="category-item" role="menuitem">
-          <a href="{{ page.url }}#{{ post.url | split:'/' | last | replace:'.html' }}">{{ post.title }}</a>
+          <a href="#{{ post.url | split:'/' | last | replace:'.html' }}">{{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>

@@ -1,9 +1,25 @@
 /**
+ * Sticky footer
+ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-content {
+  flex-grow: 1;
+}
+
+
+/**
  * Content
  */
 
 .section {
   margin-bottom: 4rem;
+  page-break-inside: avoid;
 
   &:focus {
     outline: none;
@@ -17,17 +33,27 @@
 
 .post-title {
   margin-bottom: 1.5rem;
+
+  @include break('print') {
+    display: none;
+  }
 }
 
-.page-item {
+.page-index {
   ul {
     list-style: none;
     margin-left: 0;
   }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
   h4 {
     margin-bottom: 0;
   }
 }
+
 
 
 

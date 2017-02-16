@@ -33,7 +33,7 @@ a {
 
 .page-content,
 .site-nav {
-  a {
+  a:not(.no-highlight) {
     position: relative;
     transition: color .3s;
 

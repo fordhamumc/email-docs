@@ -6,4 +6,8 @@
   border-top: 1px solid $grey-color-light;
   font-size: $base-font-size * .85;
   padding-top: 1rem;
+
+  @include break('print') {
+    display: none;
+  }
 }

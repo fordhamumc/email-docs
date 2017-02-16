@@ -4,28 +4,28 @@ layout: default
 
 {% assign pgs = site.pages | sort: 'order' %}
 
-<div class="page-item">
+<section class="section">
   <h3>Email Projects</h3>
   <ul>
     {% for pg in pgs %}
-    {% if pg.menu_exclude != true and pg.mailchimp != true %}
+    {% if pg.menu_exclude != true and pg.mailchimp != true and pg.title != null %}
     <li><h4><a href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a></h4>
       {% if pg.description %}{{pg.description}}{% endif %}
     </li>
     {% endif %}
     {% endfor %}
   </ul>
-</div>
+</section>
 
-<div class="page-item">
+<section class="section">
   <h3>Mailchimp Instructions</h3>
     <ul>
       {% for pg in pgs %}
-        {% if pg.menu_exclude != true and pg.mailchimp == true %}
+        {% if pg.menu_exclude != true and pg.mailchimp == true and pg.title != null %}
             <li><h4><a href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a></h4>
               {% if pg.description %}{{pg.description}}{% endif %}
             </li>
         {% endif %}
       {% endfor %}
     </ul>
-</div>
+</section>

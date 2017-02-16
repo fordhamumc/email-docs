@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1 class="post-title">{{ page.title }}</h1>
+
+{% unless page.content == '' %}
+{{ page.content }}
+{% endunless %}
+
+
+<main>
+{% assign posts = site.categories[page.category] | sort: 'order' %}
+{% for post in posts %}
+
+  <section class="section">
+
+    <header class="section-header">
+      <h3 class="section-title" itemprop="name headline">{{ post.title }}
+      {% if post.imagewidth %}<small>Image width: {{post.imagewidth}} |
+          Rendered size: {% if post.imagerender %}{{post.imagerender}}{% else %}{{post.imagewidth | divided_by: 1.5 | round}}{% endif %}</small>{% endif %}
+      </h3>
+    </header>
+
+    <div class="section-content" itemprop="articleBody">
+      <a href="{{post.url | prepend: site.baseurl}}">
+        {{ post.content }}
+      </a>
+    </div>
+
+  </section>
+
+{% endfor %}
+
+</main>
