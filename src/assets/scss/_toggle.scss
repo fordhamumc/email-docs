@@ -1,0 +1,41 @@
+/**
+ * Toggle
+ */
+
+.toggle {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s;
+}
+
+.toggle-btn {
+  content: 'Show Code';
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid darken(#eee, 20%);
+  font-size: .7em;
+  margin-bottom: 1rem;
+  padding: .3em .8em;
+  border-radius: 4px;
+
+  &, &:hover {
+    color: $text-color;
+  }
+}
+
+.toggle-btn--active {
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.2)
+}
+
+.toggle--active {
+  max-height: 1000px;
+}
+
+@media print {
+  .toggle-btn {
+    display: none;
+  }
+  .toggle {
+    max-height: 1000px;
+  }
+}

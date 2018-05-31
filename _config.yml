@@ -30,6 +30,14 @@ paginate: 10
 paginate_path: 'page:num'
 excerpt_separator: ''
 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "category"
+
 # Markdown library and options
 markdown: kramdown
 redcarpet:

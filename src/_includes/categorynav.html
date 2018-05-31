@@ -1,9 +1,13 @@
+{% assign lastcat = null %}
 <nav class="category-nav" role="navigation">
   <div class="inner">
     <h4>In this section</h4>
     <ul role="menu">
-      {% assign posts = site.categories[page.category] | sort: 'order' %}
-      {% for post in posts %}
+      {% for post in include.posts %}
+        {% if post.subcategory != lastcat %}
+          <li class="category-header" role="heading">{{post.subcategory}}</li>
+          {% assign lastcat = post.subcategory %}
+        {% endif %}
         <li class="category-item" role="menuitem">
           <a href="#{{ post.url | split:'/' | last | replace:'.html' }}">{{ post.title }}</a>
         </li>

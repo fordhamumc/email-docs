@@ -11,8 +11,14 @@
           {% if page.url == pg.url %}
             {% assign activeClass = 'active' %}
           {% endif %}
-          {% if pg.menu_exclude != true and pg.title != null %}
-          <a class="page-link {{activeClass}}" href="{{ pg.url | prepend: site.baseurl }}" role="menuitem">{{ pg.title }}</a>
+          {% if page.url contains "litmus" %}
+            {% if pg.url contains "litmus" %}
+            <a class="page-link {{activeClass}}" href="{{ pg.url | prepend: site.baseurl }}" role="menuitem">{{ pg.title }}</a>
+            {% endif %}
+          {% else %}
+            {% if pg.menu_exclude != true and pg.title != null %}
+            <a class="page-link {{activeClass}}" href="{{ pg.url | prepend: site.baseurl }}" role="menuitem">{{ pg.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
