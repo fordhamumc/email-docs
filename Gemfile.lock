@@ -72,3 +72,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   redcarpet
+
+BUNDLED WITH
+   1.14.3

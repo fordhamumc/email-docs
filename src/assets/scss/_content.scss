@@ -26,9 +26,28 @@ body {
   }
 }
 
+.section-title {
+  border-bottom: 1px solid $grey-color-light;
+  color: #0E6E8C;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: $strong;
+}
+
 .section-title small {
   display: block;
-  font-size: .6em;
+  text-transform: none;
+  font-weight: $base-font-weight;
+}
+
+.section-content {
+  th {
+    text-align: left;
+  }
+  th + th,
+  td + td {
+    padding-left: 2rem;
+  }
 }
 
 .post-title {

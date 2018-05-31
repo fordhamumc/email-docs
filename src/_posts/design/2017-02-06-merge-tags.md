@@ -7,3 +7,9 @@ category: design
 order: 10
 ---
 
+|---
+| Code | Description
+|-|-
+| `*|FNAME|*` | First name
+| `*|LNAME|*` | Last name
+| `*|EMAIL|*` | Email address

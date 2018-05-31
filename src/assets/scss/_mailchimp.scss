@@ -1,0 +1,183 @@
+.page-content .mailchimp a:after {
+  display: none;
+}
+
+.mailchimp {
+
+  // Base colors
+  //---------------------
+
+  $text-color:                  #444444;
+  $primary-color:               #900028;
+  $meta-color:                  lighten($text-color, 18%);
+  $preheader-color:             #ffffff;
+  $link-color:                  $primary-color;
+
+  // Media Queries
+  //---------------------
+
+  $screen-sm:                   460px;
+  $screen-xs:                   375px;
+
+  @mixin bp($point:'') {
+    @if $point == xs {
+      @media (max-width: $screen-xs) { @content; }
+    }
+    @else if $point == sm {
+      @media (max-width: $screen-sm) { @content; }
+    }
+    @else if $point == '' {
+      @media screen  { @content; }
+    }
+    @else {
+      @media (max-width: $point) { @content; }
+    }
+  }
+
+
+  // Type
+  //---------------------
+
+  $base-font:                   'Open Sans', Arial, sans-serif;
+  $font-weight-base:            normal;
+  $font-weight-bold:            600;
+  $font-size-base:              15px;
+  $headings-font-weight:        $font-weight-bold;
+  $line-height-base:            1.6;
+  $line-height-large:           1.2;
+  $line-height-computed:        floor($font-size-base * $line-height-base);
+  $line-height-offset:          ($line-height-computed - $font-size-base)/2;
+
+  .small   {
+    color: lighten($text-color, 20%);
+    font-size: 85%;
+  }
+  .h1 {
+    font-size: floor($font-size-base * 2.50);
+    Margin-bottom: floor($line-height-computed / 2);
+  }
+  .h2 {
+    font-size: floor($font-size-base * 2.15);
+    Margin-bottom: floor($line-height-computed / 2);
+  }
+  .h3 {
+    font-size: floor($font-size-base * 1.70);
+    Margin-bottom: floor($line-height-computed / 3);
+    line-height: 1.5;
+  }
+  .h4 {
+    font-size: floor($font-size-base * 1.15);
+    Margin-bottom: floor($line-height-computed / 3);
+  }
+  .h5 {
+    font-size: $font-size-base;
+    Margin-bottom: floor($line-height-computed / 3);
+  }
+
+  @include bp(sm) {
+    .h1 {
+      font-size: floor($font-size-base * 2.50 * .8);
+    }
+    .h2 {
+      font-size: floor($font-size-base * 2.15 * .8);
+    }
+    .h3 {
+      font-size: floor($font-size-base * 1.70 * .85);
+      line-height: 1.6;
+    }
+  }
+
+  .lead {
+    font-size: ceil($font-size-base * 1.2);
+  }
+
+
+  //  Buttons
+  //  ---------------------------------
+
+  $primary-color:               #900028;
+  $aside-background:            #ededed;
+  $btn-background:              $primary-color;
+  $btn-border:                  darken($btn-background, 10%);
+  $btn-color:                   #ffffff;
+  $btn-secondary-background:    $aside-background;
+  $btn-secondary-border:        darken($btn-secondary-background, 30%);
+  $btn-secondary-color:         lighten($text-color, 7%);
+
+  .btn,
+  .btn-sm,
+  .btn-lg{
+    background-color: $btn-background;
+    border-color: $btn-background;
+    border-style: solid;
+    box-shadow: 0 0 0 1px $btn-border;
+    color: $btn-color;
+    display: inline-block;
+    font-weight: $font-weight-bold;
+    text-align: center;
+    transition: all .3s;
+  }
+
+  .btn,
+  .btn-sm,
+  .btn-lg {
+    &:hover {
+      background-color: darken($btn-background, 5%);
+      border-color: darken($btn-background, 5%);
+      box-shadow:0 0 0 1px darken($btn-border, 5%);
+
+    }
+  }
+
+  .btn {
+    border-width: 7px 40px;
+    border-radius: 4px;
+    font-size: $font-size-base;
+  }
+
+  .btn-sm {
+    border-width: 5px 20px;
+    border-radius: 3px;
+    font-size: floor($font-size-base * 0.9);
+  }
+
+  .btn-lg {
+    border-width: 8px 50px;
+    border-radius: 5px;
+    font-size: floor($font-size-base * 1.35);
+  }
+
+
+  @include bp(sm) {
+
+    .btn-lg {
+      font-size: floor($font-size-base * 1.2);
+      display: block;
+    }
+
+    .btn-block-sm {
+      border-left-width: 10px;
+      border-right-width: 10px;
+      display: block;
+    }
+  }
+
+  .btn-block {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    display: block;
+  }
+
+  .btn-secondary {
+    background-color: $btn-secondary-background;
+    border-color: $btn-secondary-background;
+    box-shadow: 0 0 0 1px $btn-secondary-border;
+    color: $btn-secondary-color;
+  }
+
+  .btn-secondary:hover {
+    background-color: darken($btn-secondary-background, 5%);
+    border-color: darken($btn-secondary-background, 5%);
+    box-shadow: 0 0 0 1px darken($btn-secondary-border, 5%);
+  }
+}

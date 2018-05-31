@@ -22,11 +22,11 @@ layout: default
     <article class="section" itemscope itemtype="http://schema.org/BlogPosting" id="{{ post.url | split:'/' | last | replace:'.html' }}">
 
       <header class="section-header">
-        <h3 class="section-title" itemprop="name headline">{{ post.title }}
+        <h2 class="section-title" itemprop="name headline">{{ post.title }}
         {% if post.imagewidth %}<small>Image width: {{post.imagewidth}} |
             Rendered size: {% if post.imagerender %}{{post.imagerender}}{% else %}{{post.imagewidth | divided_by: 1.5 | round}}{% endif %}</small>{% endif %}
         {% if post.trigger %}<small>Trigger: {{ post.trigger }}</small>{% endif %}
-        </h3>
+        </h2>
       </header>
 
       <div class="section-content" itemprop="articleBody">
