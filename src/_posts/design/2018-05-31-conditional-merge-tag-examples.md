@@ -4,7 +4,7 @@ date: 2018-05-31
 title: Conditional merge tag examples
 description: Examples using the conditional merge syntax
 category: design
-order: 12
+order: 13
 ---
 
 Conditionally show a salutation to the people who have a first name and hide for everyone else:

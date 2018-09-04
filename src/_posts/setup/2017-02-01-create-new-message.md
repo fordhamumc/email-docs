@@ -11,8 +11,10 @@ From the **[Campaigns](https://us10.admin.mailchimp.com/campaigns/)** page, sele
 
 ![Create a campaign]({{site.image_path}}/{{page.category}}/create-campaign.jpg)
 
-Name your campaign, beginning with the job number. 
+Select **Email**
 
-Select the **Campaign Type: Regular**
+![Pick a campaign type]({{site.image_path}}/{{page.category}}/campaign-type.jpg){:.half-img}
+
+Campaign name should be the job number and a short descriptor.
 
 ![Name a campaign]({{site.image_path}}/{{page.category}}/name-campaign.jpg){:.half-img}

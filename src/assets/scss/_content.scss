@@ -44,6 +44,10 @@ body {
   th {
     text-align: left;
   }
+  td {
+    vertical-align: top;
+    padding-bottom: 0.7rem;
+  }
   th + th,
   td + td {
     padding-left: 2rem;

@@ -1,0 +1,34 @@
+.palette {
+  border: 1px solid rgba(0,0,0,0.1);
+  display: inline-block;
+  width: 10rem;
+  text-align: center;
+
+  &:before {
+    content: '';
+    display: block;
+    height: 9rem;
+    margin-bottom: 5px;
+  }
+  &:after {
+    content: '';
+    display: block;
+    height: 5px;
+  }
+
+  + .palette {
+    margin-left: 2rem;
+  }
+}
+
+.palette.default:before {
+  background: $brand-color;
+}
+
+.palette.athletics:before {
+  background: #700429;
+}
+
+.palette.marymount:before {
+  background: #005696;
+}

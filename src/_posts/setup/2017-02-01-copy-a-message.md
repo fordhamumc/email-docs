@@ -4,7 +4,7 @@ date: 2017-02-01
 title: Copy an email
 description: Getting started with mailchimp messages
 category: setup
-order: 21
+order: 2
 ---
 
 Find the message you would like to copy.

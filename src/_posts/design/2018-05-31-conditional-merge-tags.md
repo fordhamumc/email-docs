@@ -4,7 +4,7 @@ date: 2018-05-31
 title: Conditional merge tags
 description: Conditionally show/hide content based on merge tag values
 category: design
-order: 11
+order: 12
 ---
 
 `*|IF:MERGE|*` Display if the merge tag value is true. 
