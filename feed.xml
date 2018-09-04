@@ -1,136 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://fordhamumc.github.io/emaildocs/email-docs/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://fordhamumc.github.io/emaildocs/email-docs/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fordhamumc.github.io/emaildocs/email-docs/" rel="alternate" type="text/html" /><updated>2018-06-07T11:35:44-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs//</id><title type="html">Email Docs</title><subtitle>Documentation for Fordham University emails.</subtitle><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><entry><title type="html">Helper classes</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/design/helper-classes/" rel="alternate" type="text/html" title="Helper classes" /><published>2018-05-31T00:00:00-04:00</published><updated>2018-05-31T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/design/helper-classes</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/design/helper-classes/">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://fordhamumc.github.io/emaildocs/email-docs/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://fordhamumc.github.io/emaildocs/email-docs/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fordhamumc.github.io/emaildocs/email-docs/" rel="alternate" type="text/html" /><updated>2018-09-04T14:34:40-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs//</id><title type="html">Email Docs</title><subtitle>Documentation for Fordham University emails.</subtitle><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><entry><title type="html">Subject</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/setup/subject/" rel="alternate" type="text/html" title="Subject" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/setup/subject</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/setup/subject/">&lt;p&gt;Select a catchy subject and preheader. Try not to make the subject too long as it will get cut off on mobile. Keep it short and avoid phrases that could be confused for spam.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mailchimp.com/help/best-practices-for-email-subject-lines/&quot;&gt;Best practices for subject lines.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/setup/subject.jpg&quot; alt=&quot;Campaign info&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="setup" /></entry><entry><title type="html">Share Campaign</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/setup/share/" rel="alternate" type="text/html" title="Share Campaign" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/setup/share</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/setup/share/">&lt;p&gt;&lt;strong&gt;Share your campaign&lt;/strong&gt; allows you to create a unique URL for this send. Select “Edit.” Copy paste the job number and what you have named this campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/setup/share-link.jpg&quot; alt=&quot;Campaign info&quot; class=&quot;half-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/setup/edit-share-link.jpg&quot; alt=&quot;Campaign info&quot; class=&quot;half-img&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="setup" /></entry><entry><title type="html">Settings &amp;amp; Tracking</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/setup/settings/" rel="alternate" type="text/html" title="Settings &amp; Tracking" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/setup/settings</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/setup/settings/">&lt;p&gt;Select:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Track opens&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Track clicks&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Track plain-text clicks&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Google Analytics link tracking&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Set &lt;strong&gt;Title for campaign&lt;/strong&gt; to a unique name that will identify the traffic from this email in Google Analytics. Include the job number if available. Include month and year if this is a recurring email like a newsletter. &lt;span style=&quot;white-space:nowrap&quot;&gt;(e.g. 19-0224_Alumni_News_0918).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/setup/settings.jpg&quot; alt=&quot;Campaign info&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="setup" /></entry><entry><title type="html">To</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/setup/to/" rel="alternate" type="text/html" title="To" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/setup/to</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/setup/to/">&lt;p&gt;Select &lt;strong&gt;Fordham Master List&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Select a prebuilt segment or build a new one.&lt;br /&gt;
+&lt;em&gt;If you have not already uploaded your list, you can use a placeholder one called &lt;strong&gt;Mike Test List&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Check &lt;strong&gt;Personalize To Field&lt;/strong&gt; and select First Name and Last Name&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/setup/choose-list.jpg&quot; alt=&quot;Fordham Master List&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="setup" /></entry><entry><title type="html">From</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/setup/from/" rel="alternate" type="text/html" title="From" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/setup/from</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/setup/from/">&lt;p&gt;Who should this email should come from? The email address you use to send to this campaign will also be the email that any replies will go to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/setup/from.jpg&quot; alt=&quot;Campaign info&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="setup" /></entry><entry><title type="html">Testing</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/send/test/" rel="alternate" type="text/html" title="Testing" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/send/test</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/send/test/">&lt;p&gt;Before sending, make sure to double check links, spelling, an image sizes.&lt;/p&gt;
+
+&lt;p&gt;Send yourself a test. From the message setup page click &lt;strong&gt;Edit Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the &lt;strong&gt;Preview and Test&lt;/strong&gt; dropdown click &lt;strong&gt;Send a test email&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Check the email on both desktop and mobile.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the test looks good forward it to the &lt;strong&gt;Always Send Group&lt;/strong&gt; along with any other people involved in the project who should see the final copy.&lt;/p&gt;
+
+&lt;p&gt;When you forward the test please add the date and time the email will go out and remove your personal unsubscribe information from the bottom of the forwarded email to make sure no one unsubscribes you by mistake.&lt;/p&gt;
+
+&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Code&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Test group&lt;/th&gt;
+      &lt;th&gt;Emails&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;cntr-lg&quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Centered content on large screens but not small screens&lt;/td&gt;
+      &lt;td&gt;Always send all tests&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ahickey@fordham.edu, jronstadt@fordham.edu, mgriffin19@fordham.edu, trerotola@fordham.edu, rmeyer11@fordham.edu, stellabotte@fordham.edu, amorales42@fordham.edu, marthurs1@fordham.edu, gvergel@fordham.edu&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;cntr-sm&quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Centered content on small screens but not large screens&lt;/td&gt;
+      &lt;td&gt;Also send to&lt;/td&gt;
+      &lt;td&gt;Project manager or client if no project manager&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;hide-md&quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Shows content on large screens but not on medium or small screens&lt;/td&gt;
+      &lt;td&gt;If Fr. McShane is mentioned&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;marinucci@fordham.edu&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;hide-sm&quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Shows content on large and medium screens but not on small screens&lt;/td&gt;
+      &lt;td&gt;If list is 10,000+ or includes VIPs&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jolson13@fordham.edu, tlinder@fordham.edu&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;btn-block-sm&quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Button will take up the full width on small screens.&lt;/td&gt;
+      &lt;td&gt;If list includes trustees&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;trerotola@fordham.edu, marinucci@fordham.edu, mball@fordham.edu, nlaw@fordham.edu&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;/table&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="send" /></entry><entry><title type="html">Create a Tag</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/send/tag/" rel="alternate" type="text/html" title="Create a Tag" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/send/tag</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/send/tag/">&lt;p&gt;Select &lt;strong&gt;Lists&lt;/strong&gt; from the top navigation.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt; Only show content on small screens&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if !mso]&amp;gt;&amp;lt;!--&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;show-sm&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Content&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!--&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="design" /></entry><entry><title type="html">Conditional merge tags</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/design/conditional-merge-tags/" rel="alternate" type="text/html" title="Conditional merge tags" /><published>2018-05-31T00:00:00-04:00</published><updated>2018-05-31T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/design/conditional-merge-tags</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/design/conditional-merge-tags/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*|IF:MERGE|*&lt;/code&gt; Display if the merge tag value is true.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*|IF:MERGE|* content to display *|END:IF|* 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Select &lt;strong&gt;Fordham Master List&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*|ELSE:|*&lt;/code&gt; Indicate alternative content to display if the merge tag value is false.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*|IF:MERGE|* content to display
-*|ELSE:|* alternative content to display
-*|END:IF|*
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;In the &lt;strong&gt;Manage Contacts&lt;/strong&gt; dropdown menu, select &lt;strong&gt;Tags&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*|ELSEIF:MERGE|*&lt;/code&gt; Specify a new merge tag to be matched against if the first merge tag value is false.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*|IF:MERGE|* content to display
-*|ELSEIF:MERGE|* alternative content to display
-*|ELSE:|* alternative content to display
-*|END:IF|*
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Select &lt;strong&gt;Bulk Tag Contacts&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*|IFNOT|*&lt;/code&gt; Display the content if the merge tag value is false.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*|IFNOT:MERGE|* content to display *|END:IF|*
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="design" /></entry><entry><title type="html">Conditional merge tag examples</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/design/conditional-merge-tag-examples/" rel="alternate" type="text/html" title="Conditional merge tag examples" /><published>2018-05-31T00:00:00-04:00</published><updated>2018-05-31T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/design/conditional-merge-tag-examples</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/design/conditional-merge-tag-examples/">&lt;p&gt;Conditionally show a salutation to the people who have a first name and hide for everyone else:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*|IF:FNAME|* Dear *|FNAME|*,&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;*|END:IF|*
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Name the tag with important identifying information (e.g. 19-000 Example Email suppression list)&lt;/p&gt;
 
-&lt;p&gt;Conditionally show a salutation to the people who have a first name and a generic greeting to everyone else:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dear *|IF:FNAME|**|FNAME|**|ELSE:|*Rams*|END:IF|*,&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="design" /></entry><entry><title type="html">Fordham News</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/examples/fordham-news/" rel="alternate" type="text/html" title="Fordham News" /><published>2017-08-28T00:00:00-04:00</published><updated>2017-08-28T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/examples/fordham-news</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/examples/fordham-news/">&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/examples/fordham-news.jpg&quot; alt=&quot;Fordham News&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="examples" /></entry><entry><title type="html">Alumni News</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/examples/alumni-news/" rel="alternate" type="text/html" title="Alumni News" /><published>2017-08-28T00:00:00-04:00</published><updated>2017-08-28T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/examples/alumni-news</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/examples/alumni-news/">&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/examples/alumni-news.jpg&quot; alt=&quot;Alumni News&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="examples" /></entry><entry><title type="html">Image Row (Full Width)</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/imagefull/" rel="alternate" type="text/html" title="Image Row (Full Width)" /><published>2017-08-23T00:00:00-04:00</published><updated>2017-08-23T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/imagefull</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/imagefull/">&lt;p&gt;A large image that takes up the entire message (without the white border).&lt;/p&gt;
+&lt;p&gt;Select &lt;strong&gt;CSV file&lt;/strong&gt; or paste email addresses&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/litmus-wrappers/image-full.jpg&quot; alt=&quot;Full-width image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Click &lt;strong&gt;Save Tag&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-html toggle highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents fullimage&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{image 1095px wide}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;730&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{alt}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/send/create-tag.jpg&quot; alt=&quot;Create a new tag&quot; class=&quot;half-img&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="send" /></entry><entry><title type="html">Create Segment</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/send/segment/" rel="alternate" type="text/html" title="Create Segment" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/send/segment</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/send/segment/">&lt;p&gt;Once your list has been uploaded/tag created, you can set up your recipients for your campaign.&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="litmus-wrappers" /></entry><entry><title type="html">Image Row</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/image/" rel="alternate" type="text/html" title="Image Row" /><published>2017-08-23T00:00:00-04:00</published><updated>2017-08-23T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/image</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/image/">&lt;p&gt;A large image that takes up the entire content area.&lt;/p&gt;
+&lt;p&gt;Navigate to your email campaign.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/litmus-wrappers/image.jpg&quot; alt=&quot;One-column image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Select &lt;strong&gt;Edit Recipients&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-html toggle highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents col-img--solo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{image 945px wide}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;630&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{alt}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;p&gt;Set the &lt;strong&gt;List&lt;/strong&gt; dropdown to &lt;strong&gt;Fordham Master List&lt;/strong&gt;&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="litmus-wrappers" /></entry><entry><title type="html">Default Content</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/content/" rel="alternate" type="text/html" title="Default Content" /><published>2017-08-23T00:00:00-04:00</published><updated>2017-08-23T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/content</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/content/">&lt;p&gt;The default single-column content row.&lt;/p&gt;
+&lt;p&gt;Set the &lt;strong&gt;Segment or Tag&lt;/strong&gt; dropdown to &lt;strong&gt;Group or new segment&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/litmus-wrappers/default.jpg&quot; alt=&quot;Default content&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;Advanced Segment&lt;/strong&gt; tab&lt;/p&gt;
 
-&lt;div class=&quot;language-html toggle highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    {content}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="litmus-wrappers" /></entry><entry><title type="html">75/25</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/col75/" rel="alternate" type="text/html" title="75/25" /><published>2017-08-23T00:00:00-04:00</published><updated>2017-08-23T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/col75</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/col75/">&lt;p&gt;A 75% wide content column and a 25% wide left image.&lt;/p&gt;
+&lt;p&gt;Set the &lt;strong&gt;Find Subscribers that match&lt;/strong&gt; dropdown to &lt;strong&gt;All&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/litmus-wrappers/7525.jpg&quot; alt=&quot;75/25 content&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Match your segment to the screenshot below:&lt;/p&gt;
 
-&lt;div class=&quot;language-html toggle highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cont cont-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rtl&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;table width=&quot;100%&quot;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;![endif]--&amp;gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;td width=&quot;165&quot; valign=&quot;top&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;table&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100%&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents col-img--solo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ltr&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{image 202px wide}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;135&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{alt}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    
-    &lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;![endif]--&amp;gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;td width=&quot;495&quot; valign=&quot;top&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;table&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100%&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ltr&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-title link&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{title}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-        {content}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
-        
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;break&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/send/segment.jpg&quot; alt=&quot;Create mailing segment&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="send" /></entry><entry><title type="html">Schedule</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/send/schedule/" rel="alternate" type="text/html" title="Schedule" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/send/schedule</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/send/schedule/">&lt;p&gt;From the message setup page click the &lt;strong&gt;Schedule&lt;/strong&gt; button.&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="litmus-wrappers" /></entry><entry><title type="html">67/33</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/col67/" rel="alternate" type="text/html" title="67/33" /><published>2017-08-23T00:00:00-04:00</published><updated>2017-08-23T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/col67</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/litmus-wrappers/col67/">&lt;p&gt;A 67% wide content column and a 33% wide left image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/send/schedule.jpg&quot; alt=&quot;Plain text edit link&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/litmus-wrappers/6733.jpg&quot; alt=&quot;67/33 content&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Set your &lt;strong&gt;Delivery Date&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;language-html toggle highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cont cont-3 col-img-full&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rtl&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;table width=&quot;100%&quot;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;![endif]--&amp;gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;td width=&quot;220&quot; valign=&quot;top&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;table&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100%&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents col-img--solo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ltr&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{image 690px wide}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;190&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{alt}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    
-    &lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;![endif]--&amp;gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;td width=&quot;440&quot; valign=&quot;top&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;table&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100%&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner contents&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ltr&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-title link&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{title}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-        {content}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if (gte mso 9)|(IE)]&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;p&gt;For &lt;strong&gt;Delivery Time&lt;/strong&gt; you can either select a &lt;strong&gt;Specific Time&lt;/strong&gt; from the dropdown&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="litmus-wrappers" /></entry></feed>
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;Select &lt;strong&gt;Let Mailchimp Optimize&lt;/strong&gt; to calculate a time based on when the people on your list are most likely to open.&lt;/p&gt;
+
+&lt;p&gt;If your list is more than 10,000 people, you can send your campaign in batches to prevent overloading the website. We recommend 1 batch for every 15,000 people set 10 minutes apart.&lt;/p&gt;
+
+&lt;p&gt;Click &lt;strong&gt;Schedule Campaign&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/email-docs/assets/images/send/send.jpg&quot; alt=&quot;Plain text edit link&quot; class=&quot;half-img&quot; /&gt;&lt;/p&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="send" /></entry><entry><title type="html">Preferences</title><link href="http://fordhamumc.github.io/emaildocs/email-docs/send/preferences/" rel="alternate" type="text/html" title="Preferences" /><published>2018-09-04T00:00:00-04:00</published><updated>2018-09-04T00:00:00-04:00</updated><id>http://fordhamumc.github.io/emaildocs/email-docs/send/preferences</id><content type="html" xml:base="http://fordhamumc.github.io/emaildocs/email-docs/send/preferences/">&lt;p&gt;Preferences allow contacts to unsubscribe from certain types of messages instead of unsubscribing from all University emails. Below are the list options for each preference:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Field&lt;/th&gt;
+      &lt;th&gt;Values&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Preferences - Events&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Athletics^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Career^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Cultural^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Lectures^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Performances^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Receptions^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Retreats^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Reunions^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Travel Program^&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Preferences - Giving&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Giving&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Preferences - News&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Alumni^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Athletics^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Fordham Magazine^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Fordham News^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^Parents^&lt;/code&gt;&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^School Specific^&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Michael Foley</name><email>mifoley@fordham.edu</email></author><category term="send" /></entry></feed>
