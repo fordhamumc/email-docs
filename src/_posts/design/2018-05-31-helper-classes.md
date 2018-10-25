@@ -17,7 +17,8 @@ order: 10
 | `class="btn-block-sm"` | Button will take up the full width on small screens. 
 | `class="textlink"` | Makes links the color of the text instead of the default link color.
 
-<br> Only show content on small screens
+\\
+Only show content on small screens
 ~~~html
 <!--[if !mso]><!--><div class="show-sm">Content</div><!--<![endif]-->
 ~~~

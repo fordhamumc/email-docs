@@ -42,22 +42,30 @@ Heading 5
 
 [button](#){: .btn}
 ~~~~~~html
-<a class="btn" href="#" target="_blank"><!--[if mso]>&#8195;&#8287;<![endif]-->Button<!--[if mso]>&#8195;&#8287;<![endif]--></a>
+<a class="btn" href="#" target="_blank">
+  <!--[if mso]>&#8195;&#8287;<![endif]-->Button<!--[if mso]>&#8195;&#8287;<![endif]-->
+</a>
 ~~~~~~
 
 [small button](#){: .btn-sm}
 ~~~~~~html
-<a class="btn-sm" href="#" target="_blank"><!--[if mso]>&#8195;&#8287;<![endif]-->Small Button<!--[if mso]>&#8195;&#8287;<![endif]--></a>
+<a class="btn-sm" href="#" target="_blank">
+  <!--[if mso]>&#8287;<![endif]-->Small Button<!--[if mso]>&#8287;<![endif]-->
+</a>
 ~~~~~~
 
 [large button](#){: .btn-lg}
 ~~~~~~html
-<a class="btn-lg" href="#" target="_blank"><!--[if mso]>&#8195;&#8287;<![endif]-->Large Button<!--[if mso]>&#8195;&#8287;<![endif]--></a>
+<a class="btn-lg" href="#" target="_blank">
+  <!--[if mso]>&#8195;&#8195;&#8287;<![endif]-->Large Button<!--[if mso]>&#8195;&#8195;&#8287;<![endif]-->
+</a>
 ~~~~~~
 
 [secondary button](#){: .btn .btn-secondary}
 ~~~~~~html
-<a class="btn btn-secondary" href="#" target="_blank"><!--[if mso]>&#8195;&#8287;<![endif]-->Secondary Button<!--[if mso]>&#8195;&#8287;<![endif]--></a>
+<a class="btn btn-secondary" href="#" target="_blank">
+  <!--[if mso]>&#8195;&#8287;<![endif]-->Secondary Button<!--[if mso]>&#8195;&#8287;<![endif]-->
+</a>
 ~~~~~~
 
 This is lead copy. It is slightly larger than the default text size.

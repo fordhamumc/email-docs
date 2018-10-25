@@ -33,7 +33,7 @@ $md:                50rem;
     }
 
   } @else {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
       @content;
     }
   }
