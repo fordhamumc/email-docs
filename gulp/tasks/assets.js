@@ -28,7 +28,7 @@ gulp.task('scripts', () =>
     .pipe(newer('.tmp/assets/scripts/index.js', {dest: '.tmp/assets/scripts', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(babel({
-      presets: ['babel-preset-env']
+      presets: ['@babel/preset-env']
     }))
     .pipe(concat('index.js'))
     .pipe(size({
